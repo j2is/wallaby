@@ -1,0 +1,9 @@
+# OS or program files
+.DS_Store
+.tmproj
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+cgi-bin
+node_modules

@@ -1,0 +1,19 @@
+{
+  "name": "website-name",
+  "version": "1.0.0",
+  "description": "Website for Website Name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server",
+    "build:staging": "webpack --config webpack.config.staging.js",
+    "build:prod": "webpack --config webpack.config.prod.js"
+  },
+  "author": "Jai Sandhu",
+  "license": "ISC",
+  "devDependencies": {
+    "es6bindall": "0.0.9",
+    "jest-cli": "^22.4.3"
+  },
+  "dependencies": {}
+}
